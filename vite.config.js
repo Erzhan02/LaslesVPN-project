@@ -18,7 +18,8 @@ export default defineConfig({
 			'@pages': path.resolve(__dirname, 'src/pages'),
 			'@app': path.resolve(__dirname, 'src/app'),
 			'@components': path.resolve(__dirname, 'src/components'),
-			'@i': path.resolve(__dirname, 'icons'),
+			'@icons': path.resolve(__dirname, 'icons'),
+			'@images': path.resolve(__dirname, 'images'),
 		},
 	},
 });
